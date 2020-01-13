@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="" />
+    <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/martin/FinCuentaAtras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/martin/Temporizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/martin/Temporizador.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,7 @@
       <list>
         <option value="Class" />
         <option value="module-info" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -21,7 +29,8 @@
   </component>
   <component name="ProjectId" id="1WL8UWKxOtYsmo8hsCy7y46rJGY" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PrimerComponente" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -46,6 +55,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.martin.Principal" />
+      <module name="ComponenteTemporizador" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.martin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -58,5 +87,16 @@
       <updated>1578917530275</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

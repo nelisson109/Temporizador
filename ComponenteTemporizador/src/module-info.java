@@ -5,7 +5,7 @@ module ComponenteTemporizador {
     requires javafx.graphics;
     requires javafx.controls;
     requires Temporizador;
-    requires jdk.internal.le;
+    //requires jdk.internal.le;
     requires javafx.fxml;
 
 
