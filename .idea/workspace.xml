@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/martin/FinCuentaAtras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/martin/Temporizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/martin/Temporizador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +81,14 @@
       <option name="presentableId" value="Default" />
       <updated>1578917530275</updated>
     </task>
+    <task id="LOCAL-00001" summary="probando temporizador">
+      <created>1578931744292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578931744292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,10 +96,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="probando temporizador" />
+    <option name="LAST_COMMIT_MESSAGE" value="probando temporizador" />
   </component>
 </project>
