@@ -9,6 +9,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import martin.FinCuentaAtras;
 import martin.Temporizador;
+import javafx.scene.paint.Color;
 
 public class Principal extends Application {
     @Override
@@ -17,6 +18,9 @@ public class Principal extends Application {
         VBox vBox = new VBox();
         Temporizador temporizador = new Temporizador();
         temporizador.setSegundos(5);
+        temporizador.setColorEncendido(Color.GREEN);
+        temporizador.setColorFin(Color.RED);
+        temporizador.setMensajeFinal("Finito");
         temporizador.addFinCuentaAtras(new FinCuentaAtras() {
             @Override
             public void ejecuta() {
