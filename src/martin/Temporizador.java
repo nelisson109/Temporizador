@@ -5,6 +5,7 @@ import javafx.beans.property.*;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.paint.Color;
+import javafx.scene.paint.Paint;
 
 import java.util.ArrayList;
 import java.util.Timer;
@@ -14,8 +15,8 @@ public class Temporizador extends Label {
 
     private StringProperty mensajeFinal = new SimpleStringProperty("0");
 
-    private ObjectProperty<Color> colorEncendido = new SimpleObjectProperty<>(Color.GREEN);
-    private ObjectProperty<Color> colorFin = new SimpleObjectProperty<>(Color.RED);
+    private ObjectProperty<Paint> colorEncendido = new SimpleObjectProperty<>(Color.GREEN);
+    private ObjectProperty<Paint> colorFin = new SimpleObjectProperty<>(Color.RED);
 
     private ArrayList<FinCuentaAtras> listaFinCuentaAtras = new ArrayList<>();
 
@@ -52,17 +53,7 @@ public class Temporizador extends Label {
         setText(Integer.toString(segundos));
     }
 
-    public Color getColorEncendido() {
-        return colorEncendido.get();
-    }
 
-    public ObjectProperty<Color> colorEncendidoProperty() {
-        return colorEncendido;
-    }
-
-    public void setColorEncendido(Color colorEncendido) {
-        this.colorEncendido.set(colorEncendido);
-    }
 
     public String getMensajeFinal() {
         return mensajeFinal.get();
@@ -76,15 +67,27 @@ public class Temporizador extends Label {
         this.mensajeFinal.set(mensajeFinal);
     }
 
-    public Color getColorFin() {
+    public Paint getColorEncendido() {
+        return colorEncendido.get();
+    }
+
+    public ObjectProperty<Paint> colorEncendidoProperty() {
+        return colorEncendido;
+    }
+
+    public void setColorEncendido(Paint colorEncendido) {
+        this.colorEncendido.set(colorEncendido);
+    }
+
+    public Paint getColorFin() {
         return colorFin.get();
     }
 
-    public ObjectProperty<Color> colorFinProperty() {
+    public ObjectProperty<Paint> colorFinProperty() {
         return colorFin;
     }
 
-    public void setColorFin(Color colorFin) {
+    public void setColorFin(Paint colorFin) {
         this.colorFin.set(colorFin);
     }
 
@@ -92,8 +95,8 @@ public class Temporizador extends Label {
         listaFinCuentaAtras.add(finCuentaAtras);
     }
 
-    private String colorToString(Color color){
-        return color.toString().substring(2);
+    private String colorToString(Paint color){
+        return ((Color)color).toString().substring(2);
     }
 
     public void comenzar(){
@@ -103,7 +106,7 @@ public class Temporizador extends Label {
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
-            public void run() {
+            public void run() {//en este run no podemos meter nada que modifique o afecte a la interfaz de nuestro programa, en dicho caso tenemos que meterlo en platform.runlater
                 if(segundos.get()>0){
                     //setStyle("-fx-background-color:green");
                     segundos.set(segundos.get()-1);
@@ -115,9 +118,11 @@ public class Temporizador extends Label {
                             if(segundos.get() == 0) {
                                 //setStyle("-fx-background-color:red");
                                 setStyle("-fx-text-fill:#" + colorToString(colorFin.get()));
-                                for(int i=0; i<listaFinCuentaAtras.size(); i++){
+                                if(listaFinCuentaAtras!=null) {
+                                    for (int i = 0; i < listaFinCuentaAtras.size(); i++) {
 
-                                    listaFinCuentaAtras.get(i).ejecuta();
+                                        listaFinCuentaAtras.get(i).ejecuta();
+                                    }
                                 }
                                 //setText("Fin cuenta atras");
                                 setText(getMensajeFinal());

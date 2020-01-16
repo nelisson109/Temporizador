@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Temporizador" />
+      <artifact name="tempo" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Temporizador.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/ComponenteTemporizador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/ComponenteTemporizador.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ComponenteTemporizador/src/com/martin/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temporizador.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Temporizador.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/martin/Temporizador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/martin/Temporizador.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579104799489</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tempo a scene">
+      <created>1579112251748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579112251748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="probando temporizador" />
     <MESSAGE value="probando temporizadorr" />
-    <option name="LAST_COMMIT_MESSAGE" value="probando temporizadorr" />
+    <MESSAGE value="tempo a scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="tempo a scene" />
   </component>
 </project>
