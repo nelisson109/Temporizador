@@ -15,8 +15,8 @@ public class Principal extends Application {
     @Override
     public void start(Stage stage) throws Exception {
        // Parent root = FXMLLoader.load(getClass().getResource("ventana.fxml"));
-        VBox vBox = new VBox();
-        Temporizador temporizador = new Temporizador();
+        //VBox vBox = new VBox();
+       /* Temporizador temporizador = new Temporizador();
         temporizador.setSegundos(5);
         temporizador.setColorEncendido(Color.GREEN);
         temporizador.setColorFin(Color.RED);
@@ -26,16 +26,22 @@ public class Principal extends Application {
             public void ejecuta() {
                 System.out.println("La cuenta atras ha terminado");
             }
-        });
-        vBox.getChildren().add(temporizador);
+        });*/
+       // vBox.getChildren().add(temporizador);
 
 
        // Scene scene = new Scene(root, 800, 800);
-        Scene scene = new Scene(vBox);
-        stage.setScene(scene);
+       // Scene scene = new Scene(vBox);
+       // stage.setScene(scene);
 
+       // stage.show();
+       // temporizador.comenzar();
+
+        Parent root = FXMLLoader.load(getClass().getResource("VentanaTemporizador.fxml"));
+
+        Scene scene = new Scene(root, 500, 500);
+        stage.setScene(scene);
         stage.show();
-        temporizador.comenzar();
     }
     public static void main(String[] args){
         launch(args);
