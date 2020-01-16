@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="" />
+    <list default="true" id="ea1d356a-28fd-43ef-857c-7423d4cd0bf8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579112251748</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="uniendo con merge">
+      <created>1579195618058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579195618058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +144,7 @@
     <MESSAGE value="probando temporizador" />
     <MESSAGE value="probando temporizadorr" />
     <MESSAGE value="tempo a scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="tempo a scene" />
+    <MESSAGE value="uniendo con merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="uniendo con merge" />
   </component>
 </project>
